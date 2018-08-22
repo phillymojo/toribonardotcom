@@ -7,92 +7,13 @@ class MainContainer extends React.Component {
     return (
       <div className="mainContainer">
         <Header />
-        <br /> Hello!
-       <br /> I'm Tori!
-        <br /> Welcome to my site!
-        <br /> Have fun reading my posts and looking at my pictures!
-        <br />
-        <br />
-        <br /> {new Date().getFullYear()}
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
+        <div className={'content-container'}>
+          <div className={'content'}>
 
-
-
-
-        <div className="cityLions">
-
-          🙃
           </div>
-
-
-        <div className="cityLions">
-          😝
         </div>
-
-
-        <div className="cityLions">
-          😉
-        </div>
-
-
-        <div className="cityLions">
-          
-                  😇
-        </div>
-
-
-        <div className="cityLions">
-          🙂
-        </div>
-
-
-        <div className="cityLions">
-          😃
-        </div>
-
-
-        <div className="cityLions">
-
-          😆
-           </div>
-
-
-        <div className="cityLions">
-          😀
-        </div>
-
-
-        <div className="cityLions">
-
-
-        😂
-        </div>
-
-
-        <div className="cityLions">
-
-😄
-        </div>
-
-
-        <br />Thanks for visiting!
-      <Footer />
-
+        <Footer />
       </div>
-
     )
   }
 }
